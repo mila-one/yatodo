@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+  	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="style.css">
+  	<title>To-do 2.0</title>
+  </head>
+
+  <body>
+  	<div class="main">
+  		<div class="container">
+	  		<div id="Input">
+	  			<h1>Things to do!</h1>
+
+
+	  			<span><i class="Iconos fas fa-check-circle" id="Selected"></i></span>
+	  			<span><i class="Iconos fas fa-backspace" id="UnSelected"></i></span>
+
+	  			<input type="ThingsInput" name="name" id="ThingsInput" placeholder="Write something to do..." />
+
+	  			<span><i class="Iconos fas fa-trash" id="Delete"></i></span>
+	  			<span><i class="Iconos far fa-circle display-none" id="Hide"></i></span>
+	  			<span><i class="Iconos fas fa-circle" id="Show"></i></span>
+
+
+
+	  			<div id="contain">
+		 			<span id="mensaje">VACÍO</span>
+
+		 			<ul id="TaskLista">
+		  				<li class="ListaItems"></li>
+		  			</ul>
+		  		</div>
+
+		  		<div id="filtros">
+		  			<span><i class="Iconos fas fa-globe-americas" id="NoFilter"></i></span>
+		  			<span><i class="Iconos fas fa-clipboard-check" id="SelectedFilter"></i></span>
+		  			<span><i class="Iconos fas fa-underline" id="Underlined"></i></span>
+		  		</div>
+
+
+	  		</div>  		
+  		</div>
+
+
+	  		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		  	<script src="script.js"></script>
+  	</div>
+  </body>
+</html>
